@@ -1,10 +1,10 @@
-import { Epaces1Page } from './app.po';
+import { PacePage } from './app.po';
 
-describe('epaces1 App', () => {
-  let page: Epaces1Page;
+describe('pace App', () => {
+  let page: PacePage;
 
   beforeEach(() => {
-    page = new Epaces1Page();
+    page = new PacePage();
   });
 
   it('should display message saying app works', () => {

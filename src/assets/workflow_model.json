@@ -1,0 +1,34 @@
+[
+{
+    "id": 1,
+    "version": 1,
+    "steps": [
+        { "id": 10, "name": "provider info", "nextStep": 20, "route": "provider-info", "start": true },
+        { "id": 20, "name": "claim info", "nextStep": 30, "route": "claim-info" },
+        { "id": 30, "name": "ordering provider info", "nextStep": 40, "route": "ordering-provider-info" },
+        { "id": 40, "name": "review info", "nextStep": null, "route": "review"}
+    ],
+    "active": false
+},
+{
+    "id": 1,
+    "version": 2,
+    "steps": [
+        { "id": 10, "name": "provider info", "nextStep": 20, "route": "provider-info", "start": true },
+        { "id": 20, "name": "claim info", "nextStep": 40, "route": "claim-info" },        
+        { "id": 40, "name": "review info", "nextStep": null, "route": "review"}
+    ],
+    "active": true
+},
+{
+    "id": 2,
+    "version": 1,
+    "steps": [
+        { "id": 10, "name": "provider info", "nextStep": 20, "route": "provider-info", "start": true },
+        { "id": 20, "name": "claim info", "nextStep": 30, "route": "claim-info" },
+        { "id": 30, "name": "ordering provider info", "nextStep": 40, "route": "ordering-provider-info" },
+        { "id": 40, "name": "review info", "nextStep": null, "route": "review"}
+    ],
+    "active": true
+}
+]
