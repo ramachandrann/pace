@@ -187,7 +187,7 @@ export class ClaimComponent implements OnInit, OnDestroy {
                                 'text-margin': 10,
                                 'font-size': 12,
                                 'font-color': 'black',
-                                'line-color': 'black',
+                                'line-color': 'gray',
                                 'element-color': 'black',
                                 'fill': 'white',
                                 'yes-text': 'yes',
@@ -197,12 +197,23 @@ export class ClaimComponent implements OnInit, OnDestroy {
                                 // style symbol types 
                                 'symbols': {
                                     'start': {
+                                      'line-width': 1,
                                       'font-color': 'black',
                                       'element-color': 'black',
                                       'fill': 'white'
                                     },
                                     'end':{
+                                        'line-width': 1,
                                         'class': 'end-element'
+                                    },
+                                    'operation': {                                      
+                                      'line-width': 1,
+                                      'opacity':0.1, 
+                                      'rx':20, 
+                                      'ry':20
+                                    },
+                                    'condition': {
+                                      'line-width': 1
                                     }
                                 },
                                 // even flowstate support ;-) 
